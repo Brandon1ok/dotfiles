@@ -1,0 +1,46 @@
+! Dylans Xresources
+
+include "/home/brandon/.cache/wal/colors.sh"
+
+! Set the font
+URxvt*font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-9
+URxvt*boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-9
+
+
+! Increase line spacing
+ URxvt*lineSpace: 2
+
+! Terminal window size
+URxvt*geometry: 170x80
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
+! Set urxvt as login shell
+URxvt*loginShell: true
+
+! Set terminal padding
+URxvt.internalBorder: 25
+
+! Enables copy/paste with Ctrl-Shift-C/V
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard,resize-font
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+URxvt.resize-font.reset: C-equal
+URxvt.resize-font.show: C-question
+
+! Size of cursor
+Xcursor.size: 16
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault

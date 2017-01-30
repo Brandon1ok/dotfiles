@@ -1,0 +1,4 @@
+# Set up my own path
+export PATH=$HOME/script:$PATH
+export PATH=$HOME/scripts:$PATH
+
