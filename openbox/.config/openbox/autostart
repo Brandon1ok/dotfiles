@@ -1,4 +1,0 @@
-stalonetray --dockapp-mode simple &
-#sleep 3;fish $HOME/.lemonbar/launcher &
-nm-applet &
-#firefox &

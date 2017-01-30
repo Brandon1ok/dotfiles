@@ -97,6 +97,9 @@ super + space
 super + F
     firefox
 
+super + e
+    urxvtc -e "ranger"
+
 super + E
     thunar					
 
@@ -115,16 +118,13 @@ super + alt + Escape
 # Volume control
 
 XF86Audio{Mute,RaiseVolume,LowerVolume}
-	keybinds {volmute,volup,voldown}
+	vol {mute,up,down}
 
 XF86Audio{Play,Prev,Next}
-	keybinds {togglesong,prevsong,nextsong}
+	song {toggle,prev,next}
 
 super + {p,comma,period}
-	keybinds {togglesong,prevsong,nextsong}
+	song {toggle,prev,next}
 
-# screenshot
-Print
-    scrot.sh 0
 
 
