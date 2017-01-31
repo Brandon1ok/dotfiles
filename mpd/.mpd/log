@@ -49683,3 +49683,17 @@ Jan 30 12:57 : player: played "WHY_/Alopecia/04 The Hollows.mp3"
 Jan 30 13:00 : player: played "EASTER/New Cuisine Pt_ 1/02 Smar.mp3"
 Jan 30 13:04 : player: played "Blood on the Dance Floor/Epic/05 Candyland.mp3"
 Jan 30 13:07 : player: played "Paper Tiger/Made Like Us/03 The Bully Plank.mp3"
+Jan 30 15:03 : config: option 'buffer_time' on line 26 was not recognized
+Jan 30 15:03 : avahi: Service 'Music Player' successfully established.
+Jan 30 15:03 : player: played "Miike Snow/Miike Snow/07 A Horse Is Not a Home.mp3"
+Jan 30 15:07 : player: played "Kleerup/Kleerup/06 Longing for Lullabies (feat_ T.mp3"
+Jan 30 15:10 : player: played "Rob Cantor/Not a Trampoline/10 Let Your Mother Know.mp3"
+Jan 30 15:13 : avahi: Client Disconnected, will reconnect shortly
+Jan 30 15:13 : exception: "pulse audio" [pulse] failed to play: disconnected
+Jan 30 15:13 : player: played "Faded Paper Figures/Relics/03 Not the End of the World (Even as We Know It).mp3"
+Jan 30 15:14 : config: option 'buffer_time' on line 26 was not recognized
+Jan 30 15:14 : avahi: Service 'Music Player' successfully established.
+Jan 30 15:15 : player: played "Faded Paper Figures/Relics/03 Not the End of the World (Even as We Know It).mp3"
+Jan 30 15:43 : player: played "The Bloody Beetroots/Hide/12 The Source (Chaos & Confusion).mp3"
+Jan 30 17:34 : config: option 'buffer_time' on line 26 was not recognized
+Jan 30 17:34 : avahi: Service 'Music Player' successfully established.

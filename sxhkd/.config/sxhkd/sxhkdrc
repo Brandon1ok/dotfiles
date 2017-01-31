@@ -66,6 +66,8 @@ super + bracket{left,right}
 super + shift + bracket{left,right}
     bspc node @focused:/ -F {horizontal,vertical}
 
+# Set wallpaper
+    wal -i ~/Pictures/wallpapers -o wal-set
 #
 #--- mouse ---#
 #
@@ -101,7 +103,7 @@ super + e
     urxvtc -e "ranger"
 
 super + E
-    thunar					
+    thunar
 
 super + n
     urxvtc -e "ncmpcpp"

@@ -16,6 +16,7 @@ set -g -x LANG en_US.UTF-8
 set -g -x TERM rxvt-unicode
 set -g -x MUSIC_DIR /home/brandon/Music
 set -U SXHKD_SHELL /usr/bin/bash
+set -g -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/ssh-agent.socket"
 #set -g -x GTK_THEME Arc
 #set -g -x GTK2_RC_FILES /home/brandon/.themes/yellow/gtk-2.0/gtkrc thunar
 
@@ -27,7 +28,7 @@ fish_vi_key_bindings
 source "$HOME/.cache/wal/colors.fish"
 
 if status --is-login
-        set PATH $PATH ~/script ~/scripts ~/.lemonbar /usr/bin/core_perl
+        set PATH $PATH ~/scripts /usr/bin/core_perl
 end
 
 # start X at login

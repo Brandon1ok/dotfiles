@@ -47,7 +47,7 @@ set_from_resource $bg i3wm.color2 #f0f0f0
 set_from_resource $fo i3wm.color3 #f0f0f0
 
 # start rofi (a program launcher)
-bindsym $mod+space exec /home/brandon/script/rofi.sh
+bindsym $mod+space exec "rofi.sh"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
