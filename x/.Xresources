@@ -1,6 +1,6 @@
 ! Dylans Xresources
 
-include "/home/brandon/.cache/wal/colors.sh"
+! # include "/home/brandon/.cache/wal/colors.sh"
 
 ! Set the font
 URxvt*font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-9
@@ -11,7 +11,7 @@ URxvt*boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-9
  URxvt*lineSpace: 2
 
 ! Terminal window size
-URxvt*geometry: 170x80
+URxvt*geometry: 85x25
 
 ! Disable scrollbar
 URxvt.scrollBar: false

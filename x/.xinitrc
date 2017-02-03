@@ -14,7 +14,7 @@ fi
 export LANG=en_US.UTF-8
 
 export PANEL_FIFO="/tmp/panel_fifo"
- 
+
 #set monitors
 #xrandr --output DVI-I-1 --mode 1920x1080 --rate 60 --primary --output HDMI-0 --mode 1920x1080 --rate 60 --right-of DVI-I-1 &
 
@@ -29,7 +29,7 @@ redshift &
 compton &
 unclutter &
 nm-applet &
-cover.sh &
+cover &
 #stalonetray --dockapp-mode simple &
 #transmission-daemon &
 #sonarr &

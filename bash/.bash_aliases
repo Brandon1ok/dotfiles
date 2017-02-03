@@ -11,12 +11,6 @@ alias mp3dl="cd $HOME/Music && youtube-dl --extract-audio -f bestaudio --audio-f
 # Always open urxvt clients
 alias urxvt="urxvtc"
 
-# Record screen
-alias record="ffmpeg -f x11grab -s 1920x1080 -framerate 60 -an -i :0.0 -c:v libvpx -b:v 5M -crf 10 -quality realtime -y -loglevel quiet"
-
-
-alias fixtime="sudo ntpd -qg"
-
 # }}}
 
 

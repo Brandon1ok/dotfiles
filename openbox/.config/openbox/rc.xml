@@ -258,7 +258,7 @@
     </keybind>
     <keybind key="W-space">
       <action name="Execute">
-        <command>rofi.sh</command>
+        <command>launcher</command>
       </action>
     </keybind>
     <keybind key="W-Return">
@@ -268,12 +268,12 @@
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <command>urxvtc -e "ranger"</command>
+        <command>urxvtc -g 140x70 -e ranger</command>
       </action>
     </keybind>
     <keybind key="W-n">
       <action name="Execute">
-        <command>urxvtc -e "ncmpcpp"</command>
+        <command>music</command>
       </action>
     </keybind>
     <keybind key="S-W-e">
