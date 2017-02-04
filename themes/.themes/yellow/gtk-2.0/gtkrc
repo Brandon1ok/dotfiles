@@ -70,7 +70,7 @@ style "theme-default" {
 
     WnckTasklist :: fade-overlay-rect = 0
 
-    fg[NORMAL] = shade (1.5, @color_gray) # most text
+    fg[NORMAL] = shade (1.5, @color_black) # most text
     fg[PRELIGHT] = @color_cyan # mouseover text
     fg[SELECTED] = @color_gray # firefox menu, list, gimp
     fg[ACTIVE] = @color_black # clicked button, tabs text, Qt focus rectangle !!!

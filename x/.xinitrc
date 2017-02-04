@@ -16,9 +16,9 @@ export LANG=en_US.UTF-8
 export PANEL_FIFO="/tmp/panel_fifo"
 
 #set monitors
-#xrandr --output DVI-I-1 --mode 1920x1080 --rate 60 --primary --output HDMI-0 --mode 1920x1080 --rate 60 --right-of DVI-I-1 &
+# xrandr --output DVI-I-1 --primary --mode 1920x1080 --output HDMI-0 --mode 1920x1080 --below DVI-I-1
 
-#set wallpaper
+# xcalib ~/.config/Color\ LCD-8DD3C7B2-39C2-BCC4-E3C0-DB1AADED70FC.icc &
 
 wal -i "$HOME/Pictures/wallpapers" -o wal-set
 
@@ -29,7 +29,7 @@ redshift &
 compton &
 unclutter &
 nm-applet &
-cover &
+album &
 #stalonetray --dockapp-mode simple &
 #transmission-daemon &
 #sonarr &

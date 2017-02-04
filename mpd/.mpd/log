@@ -50121,3 +50121,49 @@ Feb 03 14:30 : player: played "Crystal Castles/Crystal Castles/16 Tell Me What t
 Feb 03 14:34 : player: played "Belle & Sebastian/Fold Your Hands Child_ You Wal/11 There’s Too Much Love.mp3"
 Feb 03 14:38 : player: played "Miike Snow/Happy to You/08 Archipelago.mp3"
 Feb 03 14:42 : player: played "Lady Gaga/Joanne/11 Lady Gaga - Angel Down.mp3"
+Feb 03 14:46 : player: played "Porter Robinson/Worlds/03 Years of War (feat_ Breanne Dü.mp3"
+Feb 03 14:50 : player: played "Skrillex/More Monsters and Sprites/02 Ruffneck (Flex).mp3"
+Feb 03 14:53 : avahi: Client Disconnected, will reconnect shortly
+Feb 03 14:53 : exception: "pulse audio" [pulse] failed to play: disconnected
+Feb 03 14:53 : player: played "Various Artists/Guardians of the Galaxy_ Aweso/12 Ain't No Mountain High Enough.mp3"
+Feb 03 16:56 : config: option 'buffer_time' on line 26 was not recognized
+Feb 03 16:56 : avahi: Service 'Music Player' successfully established.
+Feb 03 16:56 : player: played "Various Artists/Guardians of the Galaxy_ Aweso/12 Ain't No Mountain High Enough.mp3"
+Feb 03 16:59 : player: played "Royal Canoe/Today We're Believers/11 Light.mp3"
+Feb 03 17:04 : player: played "twenty one pilots/Blurryface/07 The Judge.mp3"
+Feb 03 22:43 : player: played "Travis Bretzer/Waxing Romantic/04 Lonely Heart.mp3"
+Feb 03 22:46 : player: played "WHY_/Alopecia/03 These Few Presidents.mp3"
+Feb 03 22:56 : player: played "Icona Pop/This Is___ Icona Pop/01 I Love It.mp3"
+Feb 03 23:00 : player: played "Told Slant/Going By/04 High Dirge.mp3"
+Feb 03 23:54 : player: played "Richard O'Brien/The Rocky Horror Picture Show/06 I Can Make You a Man.mp3"
+Feb 03 23:57 : exception: "pulse audio" [pulse] failed to play: disconnected
+Feb 03 23:57 : player: played "The One AM Radio/Heaven Is Attached by a Slender Thread/06 Constance.mp3"
+Feb 04 00:00 : config: option 'buffer_time' on line 26 was not recognized
+Feb 04 00:00 : avahi: Service 'Music Player' successfully established.
+Feb 04 00:01 : player: played "The One AM Radio/Heaven Is Attached by a Slender Thread/06 Constance.mp3"
+Feb 04 00:08 : player: played "Blondfire/Young Heart/01 Young Heart.mp3"
+Feb 04 00:12 : player: played "A_ R_ Rahman/Slumdog Millionaire/04 Paper Planes.mp3"
+Feb 04 00:18 : player: played "Told Slant/Going By/07 Tsunami.mp3"
+Feb 04 03:11 : avahi: Client Disconnected, will reconnect shortly
+Feb 04 03:11 : player: played "EASTER/New Cuisine Pt_ 1/05 TTHYEOB.mp3"
+Feb 04 04:24 : config: option 'buffer_time' on line 26 was not recognized
+Feb 04 04:24 : avahi: Service 'Music Player' successfully established.
+Feb 04 04:29 : player: played "Jamaican Queens/Downers/04 Bored _ Lazy.mp3"
+Feb 04 04:33 : player: played "Capital Cities/In a Tidal Wave of Mystery/1-04 Safe and Sound.mp3"
+Feb 04 04:37 : player: played "Brothertiger/Out of Touch/09 Upon Viridian Waterways.mp3"
+Feb 04 04:42 : player: played "Eight and a Half/Eight and a Half/03 Go Ego.mp3"
+Feb 04 05:31 : avahi: Client Disconnected, will reconnect shortly
+Feb 04 05:31 : player: played "Katy Perry/Teenage Dream/03 California Gurls.mp3"
+Feb 04 10:18 : config: option 'buffer_time' on line 26 was not recognized
+Feb 04 10:19 : avahi: Service 'Music Player' successfully established.
+Feb 04 11:05 : player: played "Led Zeppelin/Mothership/2-01 The Song Remains the Same.mp3"
+Feb 04 11:08 : player: played "Crystal Castles/Crystal Castles (III)/04 Affection.mp3"
+Feb 04 11:12 : player: played "AC_DC/Greatest Hell's Hits/1-09 Rock N Roll Train.mp3"
+Feb 04 11:16 : player: played "TV Girl/French Exit/02 Birds Don't Sing.mp3"
+Feb 04 11:19 : player: played "Lady Gaga/Artpop/06 Manicure.mp3"
+Feb 04 11:24 : player: played "Queen/The Platinum Collection (Great/2-11 The Miracle.mp3"
+Feb 04 11:27 : player: played "Donovan/The Hurdy Gurdy Man/01 Hurdy Gurdy Man.mp3"
+Feb 04 11:32 : player: played "Hozier/Hozier/2-02 Run.mp3"
+Feb 04 11:40 : player: played "Electric Guest/Mondo/08 Troubleman.mp3"
+Feb 04 11:45 : player: played "Youngblood Hawke/We Come Running/01 We Come Running.mp3"
+Feb 04 11:48 : player: played "Ghost Loft/Be Easy/01 Be Easy.mp3"

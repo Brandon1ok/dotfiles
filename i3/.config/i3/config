@@ -193,6 +193,14 @@ bindsym $mod+p exec "song toggle"
 bindsym $mod+period exec "song next"
 bindsym $mod+comma exec "song prev"
 
+# Monitor backlight
+# bindsym $mod+XF86MonBrightnessUp exec "light -A 5"
+# bindsym $mod+XF86MonBrightnessDown exec "light -U 5"
+
+# Keyboard backlight
+# bindsym $mod+XF86KbdBrightnessUp exec "kbdlight up 5"
+# bindsym $mod+XF86KbdBrightnessDown exec "kbdlight down 5"
+
 # Take a screensho
 #bindsym $mod+p exec scr
 
@@ -205,3 +213,4 @@ bindsym $mod+c move position center
 # Cycle wallpapers
 bindsym $mod1+w exec "wal -i $HOME/Pictures/wallpapers -o wal-set"
 exec wal -i "$(< "${HOME}/.cache/wal/wal")" -o "wal-set"
+
