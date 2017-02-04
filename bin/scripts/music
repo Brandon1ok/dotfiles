@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+set COVER /home/brandon/.cache/cover.png
+set GEOMETRY 980x980+470+40
+
+urxvtc -g 80x78+10+40 -e ncmpcpp &
+urxvtc -g 80x78+1460+40 -e ncmpcpp -s visualizer &
+feh -Z --title "Album" -x -R 2 -g "$GEOMETRY" "$COVER" &

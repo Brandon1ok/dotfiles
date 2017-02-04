@@ -1,0 +1,13 @@
+#!/usr/bin/env fish
+
+# outputs current album cover using ffmpeg
+
+set COVER /home/brandon/.cache/cover.png
+set CURRENT_DIR /home/brandon/Music
+
+while true
+    set CURRENT_FILE (mpc current -f "%file%")
+
+    ffmpeg -y -i "$CURRENT_DIR/$CURRENT_FILE" $COVER
+    mpc idle player update > /dev/null 2>&1
+end

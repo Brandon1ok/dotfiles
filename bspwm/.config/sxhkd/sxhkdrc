@@ -1,0 +1,132 @@
+#
+# bspwm hotkeys
+#
+
+# close focussed window
+super + w
+    bspc node -c
+
+# toogle pseudo tiled
+super + shift + t
+    bspc node -t ~pseudo_tiled
+
+# toggle floating window
+super + shift + f
+    bspc node -t ~floating
+
+# cycle windows forward backward
+alt + {_,shift + }Tab
+    bspc node -f {next,prev}
+
+# focus or swap windows
+super + {_,shift + }{h,j,k,l}
+    bspc node -{f,s} {west,south,north,east}
+
+# Same thing with arrow keys
+super + {_,shift + }{Left,Down,Up,Right}
+    bspc node -{f,s} {west,south,north,east}
+
+# preselect the splitting area
+super + ctrl + {h,j,k,l}
+    bspc node -p ~{west,south,north,east}
+
+# same thing with arrow keys
+super + ctrl + {Left,Down,Up,Right}
+    bspc node -p ~{west,south,north,east}
+
+# move the window into the selected area
+super + shift + {a,s,w,d}
+    bspc node -n {west,south,north,east}
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+    bspc node @{west -r -10,south -r +10,north -r -10,east -r +10}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+    bspc node @{east -r -10,north -r +10,south -r -10,west -r +10}
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Focus next window
+alt + {_,shift +} Tab
+    bspc window -f {next,prev}
+
+# next layout (monocle or tiled)
+super + t
+    bspc desktop -l next
+
+# rotate the leaves of the tree
+super + bracket{left,right}
+    bspc node @focused:/ -R {270,90}
+
+# flip the desktop tree
+super + shift + bracket{left,right}
+    bspc node @focused:/ -F {horizontal,vertical}
+
+# Set wallpaper
+    wal -i ~/Pictures/wallpapers -o wal-set
+#
+#--- mouse ---#
+#
+
+# grab focus on mouse click
+~button1
+    bspc pointer -g focus
+
+# move/resize with mouse
+super + button{1-3}
+    bspc pointer -g {move,resize_side,resize_corner}
+
+super + !button{1-3}
+    bspc pointer -t %i %i
+
+super + @button{1-3}
+    bspc pointer -u
+
+#
+#--- application launchers ---#
+#
+
+super + Return
+    urxvtc
+
+super + space
+    launcher
+
+super + F
+    firefox
+
+super + e
+    urxvtc -e "ranger"
+
+super + E
+    thunar
+
+super + n
+    urxvtc -e "music"
+
+# make sxhkd reload its configuration files:
+super + Escape
+    pkill -USR1 -x sxhkd
+
+# quit bspwm normally
+super + alt + Escape
+	bspc quit
+
+
+# Volume control
+
+XF86Audio{Mute,RaiseVolume,LowerVolume}
+	vol {mute,up,down}
+
+XF86Audio{Play,Prev,Next}
+	song {toggle,prev,next}
+
+super + {p,comma,period}
+	song {toggle,prev,next}
+
+
+

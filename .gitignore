@@ -4,3 +4,5 @@ nvim/.config/nvim/tmp/*
 nvim/.config/nvim/.*
 nvim/.config/nvim/Ditto/*
 nvim/.config/nvim/spell/*
+mpd/.mpd/log
+mpd/.mpd/pid
