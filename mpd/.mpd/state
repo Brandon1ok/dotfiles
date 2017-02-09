@@ -1,11 +1,12 @@
-sw_volume: 56
-audio_device_state:1:pulse audio
+sw_volume: 50
+audio_device_state:1:Astro MixAmp Pro
+audio_device_state:0:Built-in Audio Analog Surround 4.1
 audio_device_state:1:my_fifo
-state: play
-current: 938
-time: 4.156000
+state: pause
+current: 912
+time: 24.613000
 random: 1
-repeat: 1
+repeat: 0
 single: 0
 consume: 0
 crossfade: 0

@@ -1,8 +1,6 @@
 search down
 search pod
-search 
 search buffy
-search .config
 search ranger
 search bashrc
 open_with 2
@@ -19,6 +17,14 @@ term
 open_with bash
 terminal
 mkdir 
-delete
 search sc
 open_with
+search .config
+search sx
+delete
+search sxh
+search dot
+search cover
+search config
+search 
+search i3

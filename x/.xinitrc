@@ -35,8 +35,8 @@ album &
 #sonarr &
 
 #start window manager
-#sxhkd &
-#exec bspwm
+# sxhkd &
+# exec bspwm
 exec i3
 #exec openbox-session
 

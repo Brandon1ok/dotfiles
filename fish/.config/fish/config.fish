@@ -14,9 +14,10 @@ set -g -x VISUAL nvim
 set -g -x BROWSER chromium
 set -g -x LANG en_US.UTF-8
 set -g -x TERM rxvt-unicode
+set -g -x TERMCMD urxvtc
 set -g -x MUSIC_DIR /home/brandon/Music
-set -U SXHKD_SHELL /usr/bin/bash
 set -g -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/ssh-agent.socket"
+set -U SXHKD_SHELL /usr/bin/bash
 #set -g -x GTK_THEME Arc
 #set -g -x GTK2_RC_FILES /home/brandon/.themes/yellow/gtk-2.0/gtkrc thunar
 

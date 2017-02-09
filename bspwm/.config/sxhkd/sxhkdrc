@@ -67,6 +67,7 @@ super + shift + bracket{left,right}
     bspc node @focused:/ -F {horizontal,vertical}
 
 # Set wallpaper
+alt + w
     wal -i ~/Pictures/wallpapers -o wal-set
 #
 #--- mouse ---#
@@ -106,7 +107,7 @@ super + E
     thunar
 
 super + n
-    urxvtc -e "music"
+    music
 
 # make sxhkd reload its configuration files:
 super + Escape
